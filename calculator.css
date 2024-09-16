@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.color {
+    color: #ff4500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    width: 397px;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    box-shadow: 6px -6px 9px #fff, 11px 11px 21px -8px #000;
+}
+
+.calculator input {
+    width: 92%;
+    height: 45px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 34px;
+    text-align: end;
+    padding: 0 20px;
+    border: 0;
+    outline: 0;
+    background-color: #c9c9c9;
+    box-shadow: -5px -7px 9px #fff inset, 5px 11px 17px -13px #000 inset;
+}
+
+button {
+    border-radius: 50px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #c9c9c9;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    box-shadow: -6px -6px 9px #fff, 11px 11px 21px -8px #000;
+    cursor: pointer;
+    outline: 0;
+    margin: 5px; /* Adding margin to separate buttons */
+}
+
+button:hover {
+    background-color: #d6d6d6;
+}
+
+.zero {
+    width: 126px; /* Adjust the width for the zero button */
+}
